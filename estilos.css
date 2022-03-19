@@ -3,7 +3,6 @@
     padding: 0;
 }
 body{
-   
     background-color: #ede0d4;
     height: 1450px;
 }
@@ -21,19 +20,19 @@ body{
     left: 90%;
 }
 
-
 .imagen{
     width: 100%;
-    height: 670px;
+    height: 100vh;
     background-image: url('imagenes/hero_image.jpg');
     background-repeat: no-repeat;
     background-size:100%;
 }
 
 .barra{
-    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
     position: absolute;
     width: 100%;
+    margin-top: 15px;
 }
 
 .active:hover{
@@ -46,14 +45,26 @@ body{
 }
 h1{
     color:#ede0d4;
-    text-align:left;
-    font-size: 70px;
-    font-family: 'Caveat', cursive;
+    text-align:center;
+    font-size: 150px;
+    font-family: 'MonteCarlo', cursive;
     padding-left: 40px;
+}
+
+h2{
+    color:#ede0d4;
+    text-align:center;
 }
 .titulo{
     padding-top: 150px;
     padding-left: 40px;
+}
+.subtitulo{
+    color:#ede0d4;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    padding-bottom: 100px;
+    margin-top: 10px;
 }
 
 /* IMAGENES */
@@ -71,13 +82,6 @@ h1{
 img{
     margin-top: 30px;
     border-radius: 10px;
-}
-
-img:hover{
-    transform: translate(10px);
-    transition:linear;
-    transition-duration: 1s;
-    box-shadow: -4px 7px 3px 2px rgba(203, 153, 126, 0.43);
 }
 
 /* CONTACTO */
@@ -100,10 +104,11 @@ h4{
 }
 
 .iconos2{
-   
+    font-size: 10px;
     color:black;
-    margin-top: 35px;
+    margin-top: 30px;
 }
+
 .iconos2:hover{
     color: rgb(203,153,126);
 }
@@ -125,20 +130,25 @@ h4{
 
 @media only screen and (max-width: 768px){
     .imagen{
-        height: auto;
+        height: 50vh;
     }
     h1{
-        font-size: 30px;
+        font-size: 70px;
     }   
     .titulo{
         padding-top: 80px;
-        padding-bottom: 90px;
-        /* padding-bottom: 70px; */
+    }
+
+    .subtitulo{
+        font-size: 15px;
+        padding-bottom: 15em; 
+        padding-left: 2.5em;  
     }
     
     .iconos{
         display:none;
     }
+
     .iconos2{
         font-size: 10px;
         margin-top: 5px;
@@ -147,9 +157,12 @@ h4{
     .img-margin{
         margin-right: 80px;
     }
+    
     .navbar-nav.navbar-center {
-    position: absolute;
-    left: 90%;
+        left: 10%;
+    }
+    .navbar-toggler-icon{
+        font-size: 10px;
     }
 
 } 
