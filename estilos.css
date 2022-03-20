@@ -9,6 +9,19 @@ body{
 
 /* BARRA DE NAVEGACION */
 
+.underline-from-left {
+    width: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(#ede0d4,#ede0d4);
+    background-repeat: no-repeat;
+    background-size: 0 3px;
+    transition: background-size 1.0s;
+    background-position: left 100%;
+  }
+  .underline-from-left:hover {
+    background-size: 100% 1px;
+  }
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -129,12 +142,24 @@ h4{
 } */
 
 @media only screen and (max-width: 768px){
+
+.underline-from-left {
+    width: 300px;
+    margin: 0 auto;
+    background-image: linear-gradient(#ede0d4,#ede0d4);
+    background-repeat: no-repeat;
+    background-size: 0 3px;
+    transition: background-size 1.0s;
+    background-position: left 100%;
+  }
+
     .imagen{
         height: 50vh;
     }
     h1{
         font-size: 70px;
-    }   
+    } 
+    
     .titulo{
         padding-top: 80px;
     }
