@@ -30,7 +30,12 @@ body{
 
 .navbar-nav.navbar-right {
     position: absolute;
-    left: 90%;
+    left: 88%;
+}
+
+.iconos{
+    font-size: 12px;
+    margin-top: 8px;
 }
 
 .imagen{
