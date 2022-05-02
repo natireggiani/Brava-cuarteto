@@ -222,6 +222,7 @@ h4{
 
     .tituloSecundario{
         margin-top: 30px;
+        margin-bottom: 20px;
     }
     
     .iconos{
@@ -245,13 +246,14 @@ h4{
     }
 
     .textos-varios{
-        font-size: 15px;
+        font-size: 18px;
         width: 300px;
+        margin:0 auto;
     }
 
     .textos-varios2{
-        font-size: 15px;
-        width: 300px;
+        font-size: 18px;
+        width: 200px;
     }
 
 
