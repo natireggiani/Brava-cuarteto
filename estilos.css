@@ -17,10 +17,11 @@ body{
     background-size: 0 3px;
     transition: background-size 1.0s;
     background-position: left 100%;
-  }
-  .underline-from-left:hover {
+}
+
+.underline-from-left:hover {
     background-size: 100% 1px;
-  }
+}
 
 .navbar-nav.navbar-center {
     position: absolute;
@@ -38,10 +39,18 @@ body{
     margin-top: 8px;
 }
 
+.lista{
+    font-size: 1.3em;
+}
+
+.navbar-nav{
+    margin-left: 1.5em !important;
+}
+
 .imagen{
     width: 100%;
     height: 100vh;
-    background-image: url('imagenes/hero_image.jpg');
+    background-image: url('imagenes/Brava1.jpg');
     background-repeat: no-repeat;
     background-size:100%;
 }
@@ -52,6 +61,10 @@ body{
     width: 100%;
     margin-top: 15px;
 }
+/* 
+.active{
+    color:black;
+} */
 
 .active:hover{
     color: rgb(203,153,126) !important;
@@ -74,7 +87,7 @@ h2{
     text-align:center;
 }
 .titulo{
-    padding-top: 150px;
+    padding-top: 300px;
     padding-left: 40px;
 }
 .subtitulo{
@@ -93,14 +106,40 @@ h2{
     font-family: 'Caveat', cursive;
     padding-left: 40px;
     margin-top: 50px;
-    border-bottom: 1px solid #000000;
-    
+    border-bottom: 1px solid #000000;   
 }
 
 img{
     margin-top: 30px;
     border-radius: 10px;
 }
+/* NOSOTRAS */
+
+.textos-varios{
+    font-size: 20px;
+    width: 500px;
+    font-family: 'Caveat', cursive;
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+/* SERVICIOS */
+
+.textos-varios2{
+    font-size: 20px;
+    width: 400px;
+    font-family: 'Caveat', cursive;
+    margin-top: 20px
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+li{
+    list-style-type: none;
+}
+
 
 /* CONTACTO */
 
@@ -148,7 +187,7 @@ h4{
 
 @media only screen and (max-width: 768px){
 
-.underline-from-left {
+    .underline-from-left {
     width: 300px;
     margin: 0 auto;
     background-image: linear-gradient(#ede0d4,#ede0d4);
@@ -156,7 +195,7 @@ h4{
     background-size: 0 3px;
     transition: background-size 1.0s;
     background-position: left 100%;
-  }
+    }
 
     .imagen{
         height: 50vh;
@@ -187,7 +226,7 @@ h4{
         font-size: 10px;
         margin-top: 5px;
     }
-   
+
     .img-margin{
         margin-right: 80px;
     }
@@ -198,6 +237,13 @@ h4{
     .navbar-toggler-icon{
         font-size: 10px;
     }
+
+    .textos-varios{
+    font-size: 15px;
+    width: 400px;
+    }
+
+
 
 } 
 
