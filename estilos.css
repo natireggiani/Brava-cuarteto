@@ -56,24 +56,22 @@ body{
 }
 
 .barra{
-    font-family: 'Dancing Script', cursive;
+    font-family:'Quicksand', sans-serif;;
     position: absolute;
     width: 100%;
     margin-top: 15px;
 }
-/* 
-.active{
-    color:black;
-} */
 
 .active:hover{
     color: rgb(203,153,126) !important;
 }
+
 .marca{
     margin-left: 30px;
     font-weight: 900;
     color:#ede0d4 !important;
 }
+
 h1{
     color:#ede0d4;
     text-align:center;
@@ -86,24 +84,27 @@ h2{
     color:#ede0d4;
     text-align:center;
 }
+
 .titulo{
     padding-top: 300px;
     padding-left: 40px;
 }
+
 .subtitulo{
     color:#ede0d4;
     text-align:center;
-    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
     padding-bottom: 100px;
     margin-top: 10px;
 }
 
 /* IMAGENES */
+
 .tituloSecundario{
     color:#000000;
     text-align:left;
     font-size: 70px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
     padding-left: 40px;
     margin-top: 50px;
     border-bottom: 1px solid #000000;   
@@ -118,7 +119,7 @@ img{
 .textos-varios{
     font-size: 20px;
     width: 500px;
-    font-family: 'Caveat', cursive;
+    font-family:'Quicksand', sans-serif;
     margin-left: 30px;
     margin-top: 20px
 }
@@ -133,14 +134,16 @@ img{
 .textos-varios2{
     font-size: 20px;
     width: 400px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
     margin-top: 20px
 }
+
 .lista{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 li{
     list-style-type: none;
 }
@@ -150,12 +153,12 @@ li{
 
 h4{
     color:black;
-    font-family: 'Caveat', cursive;  
+    font-family: 'Quicksand', sans-serif;
     margin-top: 20px;
 }
 
 .form-label{
-    font-family: 'Caveat', cursive;  
+    font-family: 'Quicksand', sans-serif;
     margin-top: 10px;   
 }
 .btn{
@@ -275,8 +278,8 @@ h4{
     }
 
     .videos{
-     width: 220px;
-     height: 150px;
+        width: 220px;
+        height: 150px;
     }
     
 }
