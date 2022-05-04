@@ -85,17 +85,19 @@
     <div class='container linea-final'>
       <div class='row'>
         <div class='col-sm-5 text-center'>
-          <h4>Completa el formulario</h4>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button type="submit" class="btn btn-light">Enviar</button>
-          </div>
-          
+            <form action="https://formspree.io/f/xlezokgl"
+              method="POST">
+              <h4>Completa el formulario</h4>
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                  <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <button type="submit" class="btn btn-light">Enviar</button>
+              </div>
+            </form>
         </div>
         <div class='col-sm-2 text-center'></div>
         <div class='col-sm-5 text-center'>
