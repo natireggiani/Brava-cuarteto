@@ -100,7 +100,21 @@
     <div class='container linea-final'>
       <div class='row'>
         <div class='col-sm-5 text-center'>
-            <form action="https://formspree.io/f/xlezokgl"
+          <form
+            action="https://formspree.io/f/xlezokgl"
+            method="POST"
+            >
+            <h4>Completa el formulario</h4>
+            <label for="exampleFormControlInput1" class="form-label">Email</label><br>
+            <input type="email" class="input-mail" name="email" placeholder="name@example.com" id="exampleFormControlTextarea1">
+            </label>
+            <br>
+            <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label><br>
+            <textarea name="message" class="input-mail" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </label><br>
+            <button type="submit" class='btn btn-light'>Send</button>
+            </form>
+            <!-- <form action="https://formspree.io/f/xlezokgl"
               method="POST">
               <h4>Completa el formulario</h4>
               <div class="mb-3">
@@ -112,7 +126,7 @@
                   <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   <button type="submit" class="btn btn-light">Enviar</button>
               </div>
-            </form>
+            </form> -->
         </div>
         <div class='col-sm-2 text-center'></div>
         <div class='col-sm-5 text-center'>

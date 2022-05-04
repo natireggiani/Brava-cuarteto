@@ -159,7 +159,11 @@ h4{
 
 .form-label{
     font-family: 'Quicksand', sans-serif;
-    margin-top: 10px;   
+    margin-top: 12px;   
+}
+
+.input-mail{
+    width: 400px;
 }
 .btn{
     margin-top: 10px;
