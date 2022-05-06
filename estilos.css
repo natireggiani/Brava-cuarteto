@@ -7,6 +7,10 @@ body{
     height: 1450px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* BARRA DE NAVEGACION */
 
 .underline-from-left {
@@ -184,6 +188,12 @@ h4{
 
 .linea-final{
     border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+
+.contacto{
+    height: 450px;
 }
 /* 
 
