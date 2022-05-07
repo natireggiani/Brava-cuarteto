@@ -275,6 +275,11 @@ h4{
     .textos-varios2{
         font-size: 18px;
         width: 300px;
+        margin-right: 2.3em;
+    }
+
+    .lista{
+        justify-content: center;
     }
 
     .input-mail{
