@@ -99,12 +99,6 @@ h1{
     padding-left: 40px; 
 }
 
-
-h2{
-    color:red;
-    text-align:center;
-} 
-
 .titulo{
     padding-top: 190px;
     padding-left: 40px;
@@ -215,7 +209,144 @@ h4{
     height: 450px;
 }
 
+@media only screen and (max-width: 600px){
 
+    .underline-from-left {
+        width: 300px;
+        margin: 0 auto;
+        background-image: linear-gradient(#ede0d4,#ede0d4);
+        background-repeat: no-repeat;
+        background-size: 0 3px;
+        transition: background-size 1.0s;
+        background-position: left 100%;
+        }
+    
+        .imagen{
+            width: 100vw;
+            height: 35vh;
+        }
+    
+        .hero2{
+            width: 100vw;
+            height: 35vh;
+            background-attachment:local ;
+        }
+        h1{
+            font-size: 70px;
+        } 
+    
+        .barra{
+            font-size: 0.8em;
+        }
+        
+        .titulo{
+            padding-top: 80px;
+        }
+    
+        .subtitulo{
+            font-size: 20px;
+            padding-bottom: 15em; 
+            padding-left: 2.5em;  
+        }
+    
+        .tituloSecundario{
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .iconos{
+            display:none;
+        }
+    
+        .iconos2{
+            font-size: 10px;
+            margin-top: 5px;
+        }
+    
+        .img-margin{
+            margin-right: 80px;
+        }
+        
+        .navbar-toggler-icon{
+            font-size: 10px;
+        }
+    
+        .textos-varios{
+            font-size: 18px;
+            width: 300px;
+            margin:0 auto;
+        }
+    
+        .textos-varios2{
+            font-size: 18px;
+            width: 300px;
+            margin-right: 2.3em;
+        }
+    
+        .lista{
+            justify-content: center;
+        }
+    
+        .input-mail{
+            width: 300px;
+        }
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+    .imagen{
+        width: 100vw;
+        /* height: 50vh; */
+    }
+    .titulo{
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+        padding-left: 2em;  
+    }
+    h1{
+        font-size: 70px;
+    }
+
+    .iconos{
+        display:none;
+    }
+
+    .videos{
+        width: 200px;
+        height: 150px;
+    }
+
+    .hero2{
+        width: 100vw;
+        /* height: 80vh; */
+        background-attachment:local ;
+    }
+
+    .textos-varios{
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .textos-varios2{
+        font-size: 18px;
+        width: 300px;
+        margin-right: 2.3em;
+    }
+
+    .lista{
+        justify-content: center;
+    }
+
+    .input-mail{
+        width: 300px;
+    }
+    
+}
+
+/* 
 @media only screen and (max-width: 768px){
 
     .underline-from-left {
@@ -300,7 +431,7 @@ h4{
 
 
 
-} 
+}  */
 /* 
 @media (min-width: 300px) and (max-width: 767px) {
     .imagen{
