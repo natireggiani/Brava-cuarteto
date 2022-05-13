@@ -214,19 +214,9 @@ h4{
 .contacto{
     height: 450px;
 }
-/* 
 
-@media only screen and (max-width: 600px){
-    .imagen{
-        height: auto;
-    }
-    h1{
-        font-size: 20px;
-    }   
-    
-} */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
 
     .underline-from-left {
     width: 300px;
@@ -240,12 +230,12 @@ h4{
 
     .imagen{
         width: 100vw;
-        height: 55vh;
+        height: 30vh;
     }
 
     .hero2{
         width: 100vw;
-        height: 55vh;
+        height: 30vh;
         background-attachment:local ;
     }
     h1{
