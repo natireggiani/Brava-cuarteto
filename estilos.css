@@ -216,7 +216,7 @@ h4{
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 768px){
 
     .underline-from-left {
     width: 300px;
@@ -230,12 +230,12 @@ h4{
 
     .imagen{
         width: 100vw;
-        height: 30vh;
+        height: 45vh;
     }
 
     .hero2{
         width: 100vw;
-        height: 30vh;
+        height: 45vh;
         background-attachment:local ;
     }
     h1{
@@ -248,6 +248,7 @@ h4{
     
     .titulo{
         padding-top: 80px;
+        color: brown;
     }
 
     .subtitulo{
@@ -257,7 +258,7 @@ h4{
     }
 
     .tituloSecundario{
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
     
@@ -301,15 +302,16 @@ h4{
 
 
 } 
-
-@media (min-width: 769px) and (max-width: 1100px) {
+/* 
+@media (min-width: 300px) and (max-width: 767px) {
     .imagen{
         width: 100vw;
-        height: 50vh;
+        height: 80vh;
     }
     .titulo{
         padding-top: 100px;
         padding-left: 40px;
+        color: aquamarine;
     }
 
     .iconos{
@@ -323,9 +325,9 @@ h4{
 
     .hero2{
         width: 100vw;
-        height: 50vh;
+        height: 80vh;
         background-attachment:local ;
     }
     
 }
-
+ */
