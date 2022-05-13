@@ -45,10 +45,11 @@ html{
 .iconos{
     font-size: 12px;
     margin-top: 8px;
+    color: black;
 }
 
 .lista{
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 .navbar-nav{
@@ -58,16 +59,30 @@ html{
 .imagen{
     width: 100vw;
     height: 100vh;
-    background-image: url('imagenes/Brava1.jpg');
+    background-image: url('imagenes/Evento2.jpg');
     background-repeat: no-repeat;
     background-size:100%;
+    color:blueviolet !important;
+}
+
+.hero2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagenes/Evento1.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
 }
 
 .barra{
-    font-family:'Quicksand', sans-serif;;
+    font-family:'Quicksand', sans-serif;
     position: absolute;
     width: 100%;
     margin-top: 15px;
+    font-size: 1em;
+    font-weight: 700;
+    /* background-color:silver;
+    opacity: 0.5; */
 }
 
 .marca{
@@ -82,16 +97,17 @@ h1{
     text-align:center;
     font-size: 150px;
     font-family: 'MonteCarlo', cursive;
-    padding-left: 40px;
+    padding-left: 40px; 
 }
+
 
 h2{
-    color:#ede0d4;
+    color:red;
     text-align:center;
-}
+} 
 
 .titulo{
-    padding-top: 300px;
+    padding-top: 190px;
     padding-left: 40px;
 }
 
@@ -225,11 +241,15 @@ h4{
 
     .imagen{
         width: 100vw;
-        height: 35vh;
+        height: 50vh;
     }
     h1{
         font-size: 70px;
     } 
+
+    .barra{
+        font-size: 0.8em;
+    }
     
     .titulo{
         padding-top: 80px;
@@ -259,9 +279,6 @@ h4{
         margin-right: 80px;
     }
     
-    .navbar-nav.navbar-center {
-        left: 10%;
-    }
     .navbar-toggler-icon{
         font-size: 10px;
     }
