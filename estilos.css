@@ -62,7 +62,6 @@ html{
     background-image: url('imagenes/Evento2.jpg');
     background-repeat: no-repeat;
     background-size:100%;
-    color:blueviolet !important;
 }
 
 .hero2{
@@ -246,7 +245,8 @@ h4{
 
     .hero2{
         width: 100vw;
-        height: 30vh;
+        height: 40vh;
+        background-attachment:local ;
     }
     h1{
         font-size: 70px;
