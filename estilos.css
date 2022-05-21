@@ -80,8 +80,6 @@ html{
     margin-top: 15px;
     font-size: 1em;
     font-weight: 700;
-    /* background-color:silver;
-    opacity: 0.5; */
 }
 
 .marca{
@@ -91,7 +89,6 @@ html{
 }
 
 h1{
-    /* color:#ede0d4; */
     color:#ffffff;
     text-align:center;
     font-size: 150px;
@@ -106,7 +103,6 @@ h1{
 
 .subtitulo{
     color:#ffffff;
-    /* color:#ede0d4; */
     text-align:center;
     font-family: 'Quicksand', sans-serif;
     padding-bottom: 100px;
@@ -135,8 +131,8 @@ img{
     font-size: 20px;
     width: 500px;
     font-family:'Quicksand', sans-serif;
-    margin-left: 30px;
-    margin-top: 20px
+    margin-left: 2em;
+    margin-top: 20px;
 }
 
 .videos{
@@ -150,7 +146,7 @@ img{
     font-size: 20px;
     width: 400px;
     font-family: 'Quicksand', sans-serif;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .lista{
@@ -295,8 +291,8 @@ h4{
 @media (min-width: 601px) and (max-width: 1000px){
     .imagen{
         width: 100vw;
-        /* height: 50vh; */
     }
+
     .titulo{
         padding-top: 100px;
         padding-left: 40px;
@@ -306,6 +302,7 @@ h4{
         font-size: 20px;
         padding-left: 2em;  
     }
+
     h1{
         font-size: 70px;
     }
@@ -321,7 +318,6 @@ h4{
 
     .hero2{
         width: 100vw;
-        /* height: 80vh; */
         background-attachment:local ;
     }
 
@@ -345,119 +341,3 @@ h4{
     }
     
 }
-
-/* 
-@media only screen and (max-width: 768px){
-
-    .underline-from-left {
-    width: 300px;
-    margin: 0 auto;
-    background-image: linear-gradient(#ede0d4,#ede0d4);
-    background-repeat: no-repeat;
-    background-size: 0 3px;
-    transition: background-size 1.0s;
-    background-position: left 100%;
-    }
-
-    .imagen{
-        width: 100vw;
-        height: 45vh;
-    }
-
-    .hero2{
-        width: 100vw;
-        height: 45vh;
-        background-attachment:local ;
-    }
-    h1{
-        font-size: 70px;
-    } 
-
-    .barra{
-        font-size: 0.8em;
-    }
-    
-    .titulo{
-        padding-top: 80px;
-    }
-
-    .subtitulo{
-        font-size: 20px;
-        padding-bottom: 15em; 
-        padding-left: 2.5em;  
-    }
-
-    .tituloSecundario{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    
-    .iconos{
-        display:none;
-    }
-
-    .iconos2{
-        font-size: 10px;
-        margin-top: 5px;
-    }
-
-    .img-margin{
-        margin-right: 80px;
-    }
-    
-    .navbar-toggler-icon{
-        font-size: 10px;
-    }
-
-    .textos-varios{
-        font-size: 18px;
-        width: 300px;
-        margin:0 auto;
-    }
-
-    .textos-varios2{
-        font-size: 18px;
-        width: 300px;
-        margin-right: 2.3em;
-    }
-
-    .lista{
-        justify-content: center;
-    }
-
-    .input-mail{
-        width: 300px;
-    }
-
-
-
-}  */
-/* 
-@media (min-width: 300px) and (max-width: 767px) {
-    .imagen{
-        width: 100vw;
-        height: 80vh;
-    }
-    .titulo{
-        padding-top: 100px;
-        padding-left: 40px;
-        color: aquamarine;
-    }
-
-    .iconos{
-        display:none;
-    }
-
-    .videos{
-        width: 220px;
-        height: 150px;
-    }
-
-    .hero2{
-        width: 100vw;
-        height: 80vh;
-        background-attachment:local ;
-    }
-    
-}
- */
