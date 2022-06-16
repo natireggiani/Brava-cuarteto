@@ -176,6 +176,12 @@ h4{
 .input-mail{
     width: 400px;
 }
+
+.input-mail:focus{
+    outline: none;
+    box-shadow: 2px 2px 8px rgba(1,1,0,.7);
+}
+
 .btn{
     margin-top: 10px;
     border: 1px solid black;
