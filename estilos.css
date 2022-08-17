@@ -4,7 +4,8 @@
 }
 body{
     background-color: #ede0d4;
-    height: 1450px;
+    height: 90.62em;
+    overflow-x: hidden;
 }
 
 html{
@@ -14,11 +15,11 @@ html{
 /* BARRA DE NAVEGACION */
 
 .underline-from-left {
-    width: 400px;
+    width: 25em;
     margin: 0 auto;
     background-image: linear-gradient(#ede0d4,#ede0d4);
     background-repeat: no-repeat;
-    background-size: 0 3px;
+    background-size: 0 0.19em;
     transition: background-size 1.0s;
     background-position: left 100%;
 }
@@ -31,11 +32,11 @@ html{
     text-decoration: underline;
 }
 
-.navbar-nav.navbar-center {
+/* .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);  
-}
+} */
 
 .navbar-nav.navbar-right {
     position: absolute;
@@ -43,8 +44,8 @@ html{
 }
 
 .iconos{
-    font-size: 12px;
-    margin-top: 8px;
+    font-size: 0.75em;
+    margin-top: 0.5em;
     color: black;
 }
 
@@ -77,13 +78,13 @@ html{
     font-family:'Quicksand', sans-serif;
     position: absolute;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 0.94em;
     font-size: 1em;
     font-weight: 700;
 }
 
 .marca{
-    margin-left: 30px;
+    margin-left: 0.875em;
     font-weight: 900;
     color:#ede0d4 !important;
 }
@@ -91,9 +92,9 @@ html{
 h1{
     color:#ffffff;
     text-align:center;
-    font-size: 150px;
+    font-size: 9.375em;
     font-family: 'MonteCarlo', cursive;
-    padding-left: 40px; 
+    padding-left: 2.5em; 
 }
 
 .titulo{
